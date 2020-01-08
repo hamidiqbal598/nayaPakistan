@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragment_id"
+    android:background="@drawable/register"
+    tools:context=".SetupActivity">
+
+
+
+
+    <ImageView
+        android:id="@+id/setup_icon"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/naya_pakistan" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="95dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/profile"
+
+        />
+
+    <EditText
+        android:id="@+id/info_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_pic"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inputs"
+        android:hint="User Name"
+        android:drawableLeft="@drawable/username"
+        android:padding="14dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+
+        />
+
+
+    <EditText
+        android:id="@+id/info_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info_user"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inputs"
+        android:hint="Full Name"
+        android:drawableLeft="@drawable/name"
+        android:padding="14dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        />
+    <TextView
+        android:id="@+id/info_bday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info_name"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inputs"
+        android:hint="Birthday"
+        android:drawableLeft="@drawable/birthday"
+        android:padding="14dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:textSize="18dp"
+        />
+
+
+    <Button
+        android:id="@+id/btn_next_info"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info_bday"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/setup_icon"
+        android:background="@drawable/button"
+        android:text="Save"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".OpinionPollActivity">
+
+    <include  layout="@layout/app_bar_layout"
+        android:id="@+id/poll_page_toolbar">
+    </include>
+    <com.github.mikephil.charting.charts.PieChart
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/piechart"
+        android:layout_below="@id/poll_page_toolbar">
+
+    </com.github.mikephil.charting.charts.PieChart>
+
+</RelativeLayout>

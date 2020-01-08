@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Naya Pakistan</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="back">Back</string>
+    <string-array name="constituencies">
+        <item name="NA-1"></item>
+        <item name="NA-2"></item>
+        <item name="NA-3"></item>
+        <item name="NA-4"></item>
+        <item name="NA-5"></item>
+        <item name="NA-6"></item>
+        <item name="NA-7"></item>
+        <item name="NA-8"></item>
+        <item name="NA-9"></item>
+        <item name="NA-10"></item>
+        <item name="NA-11"></item>
+        <item name="NA-12"></item>
+        <item name="NA-13"></item>
+        <item name="NA-14"></item>
+        <item name="NA-15"></item>
+        <item name="NA-16"></item>
+        <item name="NA-17"></item>
+        <item name="NA-18"></item>
+        <item name="NA-19"></item>
+        <item name="NA-20"></item>
+        <item name="NA-21"></item>
+        <item name="NA-22"></item>
+        <item name="NA-23"></item>
+        <item name="NA-24"></item>
+        <item name="NA-25"></item>
+        <item name="NA-26"></item>
+        <item name="NA-27"></item>
+        <item name="NA-28"></item>
+        <item name="NA-29"></item>
+        <item name="NA-30"></item>
+    </string-array>
+
+
+</resources>
